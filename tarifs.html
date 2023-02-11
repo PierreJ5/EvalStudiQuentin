@@ -9,7 +9,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="/Images/Logo.jpg" alt="photo" class="logo">
@@ -20,13 +20,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link active" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/galerie.html">Galerie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tarifs.html">Tarifs et Prestations</a>
+                <a class="nav-link" href="#" aria-current="page">Tarifs et Prestations</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -45,15 +45,81 @@
           </div>
         </div>
       </nav>
-    </div>
 
+    <div class="container text-center">   
+        <h1 id="titre-tarif">Tarifs et préstations</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero dui, mattis ut sem eu, vulputate dictum nunc. Nam dictum cursus aliquam.</p>
+        <div class="row">
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 21rem; min-height: 486px;">
+                    <img src="/Images/Tarifs/juste-moi.jpg" class="card-img-top" alt="Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Juste moi - 130 €</h5>
+                        <p class="card-text">Séance pour une personne, en extérieur ou en studio</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 21rem; min-height: 486px;">
+                    <img src="/Images/Tarifs/pour-deux.jpg" class="card-img-top" alt="Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Pour deux - 195 €</h5>
+                        <p class="card-text">Pour deux personnes, en extérieur ou en studio</p>
+                    </div>
+                </div>
+            </div>
 
-
-    <div class="d-flex flex-column h-100">
-        <div class="background-image">
-            <h1>Charles Cantin - Photographe</h1>
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 21rem; min-height: 486px;">
+                    <img src="/Images/Tarifs/famille.jpg" class="card-img-top" alt="Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Famille - 220 €</h5>
+                        <p class="card-text">Pour la famille ou les amis jusqu'à 4 personnes, en extérieur ou en studio
+                            30 euros en supplément par personne au-delà de 4 (hormis enfant jusqu'à 2 ans)</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
+        <div class="row">
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 21rem; min-height: 486px;">
+                    <img src="/Images/Tarifs/il-etait-une-fois.jpg" class="card-img-top" alt="Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Il était une fois - 160 €</h5>
+                        <p class="card-text">Photo de grossesse (À votre domicile, en extérieur ou en studio)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 21rem; min-height: 486px;">
+                    <img src="/Images/Tarifs/mon-bebe.jpg" class="card-img-top" alt="Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Mon bébé - 100 €</h5>
+                        <p class="card-text">Photo d'enfant jusqu'à 3 ans (photo à domicile)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 21rem; min-height: 486px;">
+                    <img src="/Images/Tarifs/jimmortalise-evenement.jpg" class="card-img-top" alt="Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">J'immortalise l'événement : préstation sur mesure</h5>
+                        <p class="card-text">Prestation de mariage ou baptême sur devis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <footer class="fixed-bottom">
             <cite>Cantin Charles - Photographe - Copyright 2023</cite>
         </footer>

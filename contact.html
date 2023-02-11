@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link active" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/galerie.html">Galerie</a>
@@ -29,7 +29,7 @@
                 <a class="nav-link" href="tarifs.html">Tarifs et Prestations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#" aria-current="page">Contact</a>
               </li>
             </ul>
             <a href="https://facebook.com">
@@ -45,15 +45,26 @@
           </div>
         </div>
       </nav>
-    </div>
-
-
-
-
-    <div class="d-flex flex-column h-100">
-        <div class="background-image">
-            <h1>Charles Cantin - Photographe</h1>
+      <div class="container text-center">
+        <div class="form">
+            <label for="firstname" class="">Votre nom</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Saisissez votre nom">
         </div>
+        <div class="form">
+            <label for="lastname" class="">Votre Prénom</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Saisissez votre prénom">
+        </div>
+        <div class="form">
+            <label for="mail" class="">Votre adresse mail</label>
+            <input type="text" id="mail" name="mail" placeholder="Saisissez votre adresse mail">
+        </div>
+        <div class="form">
+            <label for="message" class="">Saisissez votre méssage</label>
+            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required="" class="rounded w-4/5 my-2" rows="5"></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+
+
         <footer class="fixed-bottom">
             <cite>Cantin Charles - Photographe - Copyright 2023</cite>
         </footer>

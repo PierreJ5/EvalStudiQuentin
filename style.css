@@ -2,6 +2,7 @@ body {
     height: 100%;
 }
 
+/* IMAGE PAGE ACCUEIL*/
 .background-image {
     color: white;
     background-image: url("Images/photo-accueil.jpg");
@@ -14,7 +15,7 @@ body {
 }
 
 body {
-    background-color: burlywood;
+    background-color: rgb(71, 85, 94);
 }
 .logo {
     width: 10rem;
@@ -35,4 +36,22 @@ footer {
     align-items: center;
 }
 
-  
+.card-img-top {
+    max-height: 300px;
+    min-height: 300px;
+    width: auto;
+}
+
+.card:hover {
+    border: 1px solid black;
+}
+#titre-tarif {
+    color: white;
+    font-size: 3rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
