@@ -1,9 +1,11 @@
+/*Font Family*/
 * {
     font-family: 'Ubuntu', sans-serif;
 }
 
 body {
     height: 100%;
+    background-color: rgb(71, 85, 94);
 }
 
 /* IMAGE PAGE ACCUEIL*/
@@ -12,15 +14,12 @@ body {
     background-image: url("Images/photo-accueil.jpg");
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-body {
-    background-color: rgb(71, 85, 94);
-}
 .logo {
     width: 16rem;
     height: 9rem;
@@ -41,19 +40,34 @@ footer {
     align-items: center;
 }
 
-.card-img-top {
-    max-height: 300px;
-    min-height: 300px;
-    width: auto;
-}
-
+/*Cards de la section Tarifs*/
 .card {
+    height: 100%;
+    background: rgb(86,86,86);
+    background: linear-gradient(to bottom, rgb(86,86,86) 20%, rgb(104,104,104) 50%, rgb(255,255,255) 100%);
     transition: transform 250ms;
 }
 .card:hover {
     transform: scale(1.05);
 }
-
+.card-img-top {
+    max-height: 300px;
+    min-height: 300px;
+    width: auto;
+}
+.card-title {
+    min-height: 48px;
+    font-size: 1.5rem;
+}
+.card-body {
+    border: 1px solid black;
+    margin: 10px;
+}
+.card-text {
+    height: 100%;
+    font-style: italic;
+}
+/*Titre de la page Tarif*/
 #titre-tarif {
     color: white;
     font-size: 3rem;
@@ -65,16 +79,16 @@ footer {
     align-items: center;
 }
 
-li {
+nav > div > div > ul > li {
     margin-left: 1.5rem;
     transition: transform 250ms;
 }
 
-li:hover {
+nav > div > div > ul > li:hover {
     transform: scale(1.2);
 }
 
-i {
+.social > a > i {
     color: white;
 }
 
