@@ -72,11 +72,8 @@ footer {
     color: white;
     font-size: 3rem;
 }
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+form {
+height: 100%;
 }
 
 nav > div > div > ul > li {
