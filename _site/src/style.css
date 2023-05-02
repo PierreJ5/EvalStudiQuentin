@@ -1,0 +1,121 @@
+/*Font Family*/
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(71, 85, 94);
+}
+
+/* IMAGE PAGE ACCUEIL*/
+.background-image {
+    color: white;
+    background-image: url("/Images/photo-accueil.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexh1 {
+    font-size: 3rem;
+}
+
+.logo {
+    width: 16rem;
+    height: 9rem;
+}
+.photo {
+    min-height: 350px;
+    max-height: 350px;
+    width: auto;
+}
+
+footer {
+    color: white;
+    background: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cards de la section Tarifs*/
+.card {
+    height: 100%;
+    background: rgb(86,86,86);
+    background: linear-gradient(to bottom, rgb(86,86,86) 20%, rgb(104,104,104) 50%, rgb(255,255,255) 100%);
+    transition: transform 250ms;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    max-height: 300px;
+    min-height: 300px;
+    width: auto;
+}
+.card-title {
+    min-height: 48px;
+    font-size: 1.5rem;
+}
+.card-body {
+    border: 1px solid black;
+    margin: 10px;
+}
+.card-text {
+    height: 100%;
+    font-style: italic;
+}
+/*Titre de la page Tarif*/
+#titre-tarif {
+    color: white;
+    font-size: 3rem;
+}
+form {
+height: 100%;
+}
+
+nav > div > div > ul > li {
+    margin-left: 1.5rem;
+    transition: transform 250ms;
+}
+
+nav > div > div > ul > li:hover {
+    transform: scale(1.2);
+}
+
+.social > a > i {
+    color: white;
+}
+
+.social {
+    width: 4rem;
+    text-align: center;
+    border-radius: 13px;
+    border: 1px solid black;
+    -webkit-box-shadow: 1px 3px 33px 9px rgba(0,0,0,0.6); 
+    box-shadow: 1px 3px 33px 9px rgba(0,0,0,0.6);
+    transition: transform 250ms;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+.fb {
+    background-color: rgb(59, 89, 152);
+}
+
+.insta {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.header {
+    background: linear-gradient(45deg, #A4A4A4 0%, #204763 51%, #A59D9D 100%);
+}

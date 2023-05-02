@@ -11,13 +11,17 @@ body {
 /* IMAGE PAGE ACCUEIL*/
 .background-image {
     color: white;
-    background-image: url("Images/photo-accueil.jpg");
+    background-image: url("/Images/photo-accueil.jpg");
     background-size: cover;
     background-position: center;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.indexh1 {
+    font-size: 3rem;
 }
 
 .logo {
