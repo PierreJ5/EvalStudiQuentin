@@ -55,22 +55,26 @@
 
     <div class="container text-center">
         <div class="row d-flex align-items-around justify-content-center">
-            <form class="mt-3 col-lg-6" name="contacts" data-netlify="true">
+            <form class="mt-3 col-lg-6" method="POST" name="contact" data-netlify="true">
                 <div class="mb-3">
-                    <label for="firstNameInput" name="prenom" class="form-label fs-5">Votre prénom</label>
+                    <label for="firstNameInput" name="prenom" class="form-label fs-5">Votre prénom
                     <input type="text" class="form-control text-center" id="firstNameInput">
+                    </label>
                 </div>
                 <div class="mb-3">
-                    <label for="lastNameInput" name="nom" class="form-label fs-5">Votre Nom</label>
+                    <label for="lastNameInput" name="nom" class="form-label fs-5">Votre Nom
                     <input type="text" class="form-control text-center" id="lastNameInput">
+                    </label>
                 </div>
                 <div class="mb-3">
-                    <label for="emailInput" name="mail" class="form-label fs-5">Votre adresse mail</label>
+                    <label for="emailInput" name="mail" class="form-label fs-5">Votre adresse mail
                     <input type="email" class="form-control text-center" id="emailInput">
+                    </label>
                 </div>
                 <div class="mb-3">
-                    <label class="fs-5" name="texta" for="inputText">Votre méssage</label>
+                    <label class="fs-5" name="texta" for="inputText">Votre méssage
                     <textarea class="form-control" id="inputText" style="height: 100px;"></textarea>
+                    </label>
                 </div>
                 <button type="submit" class="btn btn-primary">Envoyer</button>
             </form>
