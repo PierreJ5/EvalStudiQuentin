@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "scripts": {
+    "build": "npm run build"
+  },
   "dependencies": {
     "a-sync-waterfall": "^1.0.1",
     "acorn": "^7.4.1",
