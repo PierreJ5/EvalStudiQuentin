@@ -1,3 +1,4 @@
 [build]
+  command = "eleventy"
   publish = "_site"
-  command = "npm run build"
+  install-command = "npm install"
